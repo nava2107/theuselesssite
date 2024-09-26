@@ -16,12 +16,12 @@
 }
 
 .cat-gallery-view img {
-  width: 100%; /* Ensure images take full width of their container */
-  height: 150px; /* Fixed height for all images */
+  width: 500px; /* Ensure images take full width of their container */
+  height: 500px; /* Fixed height for all images */
   object-fit: cover; /* Ensures images cover the area without distortion */
   transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1); /* Transition for hover effects */
 }
 
 .cat-gallery-view li:hover {
-  box-shadow: var(--lumo-box-shadow-s); /* Optional shadow on hover */
+  box-shadow: rgb(241, 190, 230); /* Optional shadow on hover */
 }

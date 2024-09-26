@@ -2,10 +2,11 @@ package com.example.application.views.imagegallery;
 
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.html.Image;
+import com.vaadin.flow.component.html.Span;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.router.Route;
 
-public class ImageGalleryViewCard extends VerticalLayout {
+public class ImageGalleryViewCard extends Span {
 
     public ImageGalleryViewCard(String title, String imageUrl, String redirectUrl) {
         // Create an image component
