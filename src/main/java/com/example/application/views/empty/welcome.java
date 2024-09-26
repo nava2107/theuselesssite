@@ -14,16 +14,6 @@ public class welcome extends VerticalLayout {
     public welcome() {
         setSpacing(false);
 
-        // Add the image
-        Image img = new Image("images/empty-plant.png", "placeholder plant");
-        img.setWidth("200px");
-        add(img);
-
-        // Add the header text
-        H2 header = new H2("This place intentionally left empty");
-        header.addClassNames(Margin.Top.XLARGE, Margin.Bottom.MEDIUM);
-        add(header);
-        add(new Paragraph("It’s a place where you can grow your own UI 🤗"));
 
         // Add custom text "WANNA SEE SOME CATS?"
         H2 catHeader = new H2("WANNA SEE SOME CATS?");

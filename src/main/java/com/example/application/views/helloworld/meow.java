@@ -26,10 +26,10 @@ public class meow extends VerticalLayout {
         meowHeader.getStyle().set("font-weight", "bold"); // Bold letters
 
         // Create the "Meow" button that sends to another URL
-        meowButton = new Button("Meow");
+        meowButton = new Button("Meow!");
         meowButton.addClickListener(e -> {
             // Redirect to the desired URL (replace with your target URL)
-            getUI().ifPresent(ui -> ui.getPage().setLocation("Empty")); // Example: next app on port 8081
+            getUI().ifPresent(ui -> ui.getPage().setLocation("http://localhost:42893/")); // Example: next app on port 8081
         });
 
         // Style the Meow button

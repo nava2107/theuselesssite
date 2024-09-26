@@ -8,6 +8,6 @@
 }
 
 .cat-gallery-view li:hover {
-  background-color: var(--lumo-base-color);
-  box-shadow: var(--lumo-box-shadow-s);
+  background-color: rgb(241, 190, 230);
+  box-shadow: rgb(220, 110, 196);
 }
